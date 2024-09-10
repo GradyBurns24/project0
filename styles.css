@@ -1,13 +1,13 @@
 .search{
-    --search_padding: 15px;
+    --search_padding: 13px;
     width: max-content;
     align-items: center;
     display:flex;
-    position: relative;
-    top:240px;
-    left: 390px;
+    position: fixed;
+    top:325px;
+    left: 410px;
     padding:var(--search_padding);
-    border-radius: 30px;
+    border-radius: 26px;
     background-color: #f6f6f6;
 }
 #search_bar {
@@ -27,15 +27,33 @@
     background-color: white;
 }
 
-.image_button {
-    --image_button_left_pos:1315px;
-    --image_button_top_pos:13px;
+#image_button {
+    position:fixed;
     border: none;
     background-color: rgb(53,53,53);
     outline:none;
     color: white;
     font-size: 13px;
-    position:relative;
-    left: var(--image_button_left_pos);
-    top: var(--image_button_top_pos);
+    left: 1325px;
+    top: 25px;
+}
+
+.back_to_google {
+    position:fixed;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    outline:none;
+    color: black;
+    font-size: 13px;
+    left: 1325px;
+    top: 25px;
+}
+
+.search_button {
+    border:none;
+    outline:none;
+    position:fixed;
+    left: 700px;
+    top: 400px;
 }
