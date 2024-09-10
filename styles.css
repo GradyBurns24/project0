@@ -27,33 +27,93 @@
     background-color: white;
 }
 
-#image_button {
-    position:fixed;
+.image_button {
     border: none;
-    background-color: rgb(53,53,53);
+    background-color: transparent;
     outline:none;
     color: white;
     font-size: 13px;
-    left: 1325px;
-    top: 25px;
+    float:right;
 }
 
 .back_to_google {
-    position:fixed;
     border: none;
-    background-color: white;
+    background-color: transparent;
     font-weight: bold;
     outline:none;
     color: black;
     font-size: 13px;
-    left: 1325px;
-    top: 25px;
+    float:right;
 }
 
 .search_button {
     border:none;
     outline:none;
     position:fixed;
-    left: 700px;
+    left: 675px;
     top: 400px;
+}
+
+#image_button:hover {
+    text-indent: 2px;
+    text-decoration: underline;
+}
+
+.back_to_google:hover {
+    text-indent: 2px;
+    text-decoration: underline;
+}
+
+.img_pos {
+    position: fixed;
+    left: 575px;
+    top: 175px;
+}
+
+.advanced_search_button {
+    color: white;
+    border: none;
+    background-color: transparent;
+    outline:none;
+    font-size: 13px;
+    float:right;
+}
+
+nav {
+    display:block;
+}
+
+.advanced_search_button:hover {
+    text-indent: 2px;
+    text-decoration: underline;
+}
+#image_adv{
+    color:black;
+    font-weight: bold;
+}
+
+#adv_search_title {
+    color: red;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position:relative;
+    top: 45px;
+    left: 30px;
+}
+
+hr {
+    border-bottom: 1px solid #f6f6f6;
+    position: relative;
+    top:47px;
+}
+
+#back_to_images {
+    color: black;
+    font-weight: bold;
+}
+
+#back_to_images:hover {
+    text-decoration: underline;
+    text-indent: 2px;
 }

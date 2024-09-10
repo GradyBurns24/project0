@@ -6,6 +6,21 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body id="image_body">
+        <nav>
+            <form action="index.html" method="get">
+                <div>
+                    <button class="back_to_google"> Google</button>
+                </div>
+            </form>
+            <form action="advanced_search.html" method="get">
+                <div>
+                    <button class = "advanced_search_button" id = "image_adv">Advanced Search</button>
+                </div>
+            </form>
+        </nav>
+        <div class = "img_pos">
+            <img src="google_images_origin.png" alt="Google Images">
+        </div>
         <form action="https://www.google.com/search?q=" method="get">
             <div class = "search_button">
                     <button>Search</button>
@@ -16,10 +31,6 @@
                 <input id="search_bar" type="Search" name="q" id="text_search" placeholder="Search Images With Google"/>
             </div>
         </form>
-        <form action="index.html" method="get">
-            <div>
-                <button class="back_to_google"> Google</button>
-            </div>
-        </form>
+
     </body>
 </html>

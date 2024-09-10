@@ -7,19 +7,29 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body id = "index_body">
-        <form action="image_search.html" method="get">
-            <div>
-                <button id = image_button>Images</button>
-            </div>
-        </form>
+        <div class = "img_pos">
+            <img src="google_origin.png" alt="Google">
+        </div>
+        <nav>
+            <form action="advanced_search.html" method="get">
+                <div>
+                    <button class = advanced_search_button>Advanced Search</button>
+                </div>
+            </form>
+            <form action="image_search.html" method="get">
+                <div>
+                    <button class = image_button>Images</button>
+                </div>
+            </form>
+        </nav>
         <form action="https://www.google.com/search?q=" method="get">
             <div class = "search">
                 <span class="material-symbols-outlined">search</span>
                 <input id="search_bar" type="Search" name="q" id="text_search" placeholder="Search Google"/>
             </div>
-            <div>
-                <button class = "search_button">Search</button>
-            </div>
+                <div>
+                    <button class = "search_button">Search</button>
+                </div>
         </form>
     </body>
 </html>
