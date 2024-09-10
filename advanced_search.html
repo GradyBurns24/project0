@@ -18,12 +18,56 @@
                 </div>
             </form>
         </nav>
+
         <div>
             <h1 id="adv_search_title">Advanced Search</h1>
-            <hr>
+            <hr id="top_line">
         </div>
-        <form  class = "adv_search_boxes" method="get" action="https://www.google.com/advanced_search">
+
+        <form  class = "adv_search_boxes" method="get" action="https://www.google.com/search">
+            <div class="whole_input">
+                <label>Find pages with...</label>
+                <label id = "intructions">These are your steps</label>
             </div>
+            <div class="whole_input">
+                <label>all these words:</label>
+                <div class="adv_boxes">   
+                    <input type="text" name="as_q">
+                    <label class="label_font">Type the important words:  tricolor rat terrier</label>
+                </div>
+            </div>
+            <div  class="whole_input"> 
+                <label>this exact word or phrase:</label>
+                <div class="adv_boxes">   
+                    <input type="text" name="as_epq">
+                    <label class="label_font">Put exact words in quotes:  "rat terrier"</label>
+                </div>
+            </div>
+            <div class="whole_input"> 
+                <label>any of these words:</label>
+                <div class="adv_boxes">   
+                    <input type="text" name="as_oq">
+                    <label class="label_font">Type OR between all the words you want:  miniature OR standard</label>
+                </div>
+            </div>
+            <div class="whole_input"> 
+                <label>none of these words:</label>
+                <div class="adv_boxes">   
+                    <input type="text" name="as_eq">
+                    <label class="label_font">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label>
+                </div>
+            </div>
+            <div class="whole_input">  
+                <label>numbers ranging from:</label>
+                <div class="adv_boxes">   
+                    <input type="text" name="as_nlo">
+                    or
+                    <input type="text" name="as_nhi">
+                    <label class="label_font">Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</label>
+                </div>
+            </div>
+            <hr id="bottom_line">
+            <button id="submit_button" type="submit">Advanced Search</button>
         </form>
     </body>
 </html>
