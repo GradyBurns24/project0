@@ -52,6 +52,7 @@
     position:fixed;
     left: 675px;
     top: 400px;
+    height: 20px;
 }
 
 #image_button:hover {
@@ -160,4 +161,11 @@ hr {
 #submit_button:hover {
     background-color: #1f5bb5 ;
     box-shadow: inset;
+}
+
+#im_feeling_luck {
+    position:fixed;
+    left: 750px;
+    top: 400px;
+    height: 20px;
 }
